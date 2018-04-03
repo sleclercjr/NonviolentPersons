@@ -1,37 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
 
+html
+{
+	background-color: #C49991;
+}
 body
 {
-	padding: 0px;
+	padding: 0em;
 	align-content: center;
 	margin: auto;
-	max-width: 960px;
-	background-color: #D7CDCD;
+	max-width: 65em;
+	background-color: #F7F7FF;
 }
 
 .hdr-primary
 {
 	border-style: groove;
 	border-color: #000000;
-	background-color: #BDAD42;
+	background-color: #219AF1;
 	text-align: center;
 }
 .welcome
 {
 	font-size: 45px;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .img-banner
 {
 	border-style: groove;
 	border-color: azure;
-	max-width: 960px;
+	max-width: 65em;
 }
 .nav-element
 {
 	border-style: solid;
-	border-color: #0000000;
+	border-color: #000000;
 }
 p
 {
