@@ -3,23 +3,29 @@
 
 html
 {
-	background-color: #C49991;
+	background: repeating-linear-gradient(#C49991, #FFFFFF);
 }
 body
 {
 	padding: 0em;
 	align-content: center;
 	margin: auto;
-	max-width: 65em;
-	background-color: #F7F7FF;
+	max-width: 75em;
 }
-
 .hdr-primary
 {
 	border-style: groove;
 	border-color: #000000;
 	background-color: #219AF1;
 	text-align: center;
+}
+.nav-header
+{
+	padding: 0em;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	color: #131112;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .welcome
 {
@@ -30,14 +36,73 @@ body
 {
 	border-style: groove;
 	border-color: azure;
-	max-width: 65em;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	width: 75em;
+	object-fit: contain;
+}
+
+.main-navigation
+{
+	align-content: center;
+}
+.secondary-navigation
+{
+	align-content: center;
+}
+
+.main-nav-element
+{
+	border-style: solid;
+	border-color: #000000;
+	background-color: #279AF1;
+	font-size: 1.3em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #000000;
+	display: inline-block;
+	width: 15em;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	text-decoration: none;
 }
 .nav-element
 {
 	border-style: solid;
 	border-color: #000000;
+	background-color: #279AF1;
+	font-size: 1em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #000000;
+	display: inline-block;
+	width: 10em;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	text-decoration: none;
 }
+
 p
 {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+footer
+{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border-style: double;
+	text-align: left;
+	background-color: #C49991;
+	max-width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th{
+	padding-right: 2em;
+}
+td{
+	padding-right: 2em;
+	font-size: .85em;
 }
