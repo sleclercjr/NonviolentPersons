@@ -66,6 +66,7 @@ body
 	line-height: 3em;
 	text-align: center;
 	text-decoration: none;
+	border-radius: 10px;
 }
 .nav-element
 {
@@ -81,6 +82,7 @@ body
 	line-height: 3em;
 	text-align: center;
 	text-decoration: none;
+	border-radius: 10px;
 }
 
 p
@@ -100,9 +102,9 @@ footer
 }
 
 th{
-	padding-right: 2em;
+	padding-right: 5em;
 }
 td{
-	padding-right: 2em;
+	padding-right: 5em;
 	font-size: .85em;
 }
