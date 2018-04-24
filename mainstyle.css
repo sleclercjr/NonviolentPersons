@@ -12,6 +12,8 @@ body
 	margin: auto;
 	max-width: 75em;
 }
+
+/*Style for homepage*/
 .hdr-primary
 {
 	border-style: groove;
@@ -109,3 +111,4 @@ td{
 	padding-right: 5em;
 	font-size: .85em;
 }
+/*----------------------------------------------*/
