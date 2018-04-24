@@ -1,0 +1,3 @@
+Separate footnotes box for References and External Links bigger than footnotes 60-65%
+Use style sheet but make new one
+Classes
