@@ -61,12 +61,13 @@ body
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	color: #000000;
 	display: inline-block;
-	width: 15em;
+	width: 14em;
 	height: 3em;
 	line-height: 3em;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 10px;
+	margin-bottom: 1em;
 }
 .nav-element
 {
