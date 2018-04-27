@@ -3,7 +3,7 @@
 
 html
 {
-	background: repeating-linear-gradient(#C49991, #FFFFFF);
+	background: repeating-linear-gradient(#C49991, #FFFFFF, #C49991);
 }
 body
 {
@@ -31,7 +31,7 @@ body
 }
 .welcome
 {
-	font-size: 45px;
+	font-size: 3em;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .img-banner
@@ -69,7 +69,7 @@ body
 	text-align: center;
 	text-decoration: none;
 	border-radius: 10px;
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 }
 .nav-element
 {
@@ -87,10 +87,26 @@ body
 	text-decoration: none;
 	border-radius: 10px;
 }
-
+/*--------------------------------------------------*/
+/*----------------------Universal Style-------------*/
 p
 {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+h1{
+	font-size: 3em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 0em;
+	margin-top: .5em;
+	margin-bottom: 1em;
+}
+h2
+{
+	padding: 0em;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	color: #131112;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 footer
 {
@@ -112,3 +128,12 @@ td{
 	font-size: .85em;
 }
 /*----------------------------------------------*/
+/*------------Style For Portal Pages------------*/
+.portal_introduction
+{
+	
+}
+.portal_list
+{
+	
+}
