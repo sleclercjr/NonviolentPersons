@@ -15,9 +15,25 @@ body
 	width: 99%
 }
 
+h2
+{
+	font-size: 2em;
+}
+
+h3
+{
+	font-size: 1.4em;
+}
+
+h4
+{
+	font-size: 1.2em;
+}
+
 p
 {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 1em;
 }
 
 .cont
