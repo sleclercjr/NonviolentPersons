@@ -135,5 +135,23 @@ td{
 }
 .portal_list
 {
-
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 25px;
+}
+.img-portal {
+	border-style: groove;
+	border-color: azure;
+	max-width: 95%;
+}
+/*----------------------------------------------*/
