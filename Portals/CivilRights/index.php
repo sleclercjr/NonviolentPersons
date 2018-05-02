@@ -1,3 +1,3 @@
 <?php
-include 'Portal-CivilRights.html';
+    include 'Portal-CivilRights.html';
 ?>
