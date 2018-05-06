@@ -229,3 +229,32 @@ p
 	margin-left: auto;
 	margin-right: auto;
 }
+a.link {
+    display: inline;
+}
+
+ul.tree-navigation {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+ul.tree-navigation li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.tree-navigation li+li:before {
+    padding: 3px;
+    color: black;
+    content: ">";
+}
+
+ul.tree-navigation li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.tree-navigation li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
