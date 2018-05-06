@@ -73,7 +73,8 @@ p
 	margin: auto;
 	max-width: 75em;
 	width: 91%;
-	margin-bottom:1em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
 }
 
 .contName
